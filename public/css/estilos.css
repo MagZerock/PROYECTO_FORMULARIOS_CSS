@@ -1,0 +1,73 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: right;
+    color: aqua;
+}
+
+table{
+    /* ancho */
+    width: 100%; 
+    /* centrar/ */
+    margin: 0 auto; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.table2{
+    width: 50%;
+    margin: 0 auto;
+    border: 4px solid #344ddb;
+}
+th{
+    border: 4px solid rgb(87, 226, 32);
+}
+
+td{
+    border: 4px solid rgb(32, 221, 228);
+}
+
+input[type="text"] {
+    width: 50%;
+    border: 5px solid #344ddb;
+    padding: 10px; /* tamaño ancho */
+}
+
+textarea {
+    background-color: #f8d17d;
+    width: 95%; /* ancho */
+    height: 100px; /* altura*/
+}
+
+select {
+    width: 50%;
+    /* borde curveado */
+    border-radius: 5px;
+    /* rotar */
+    /* rotate: 90deg; */
+
+    /*negrita */
+    font-weight: bold;
+    padding: 80px;
+}
+
+input[type="checkbox"] {
+    /* modifica cursor en la celda*/
+    cursor:cell;
+    /* tamaño del elemento */
+    transform: scale(1.25);
+    margin-left: 50px;
+}
+
+input[type="radio"] {
+    accent-color: rgb(220, 20, 137);
+    margin-right: 15px;
+}
+
+.botones-personalizados{
+    background-color: rgb(251, 255, 0);
+    color: #050101;
+    border-radius: 5px;
+    width: 100%;
+}
