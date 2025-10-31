@@ -31,10 +31,6 @@ table{
     width: 50%;
     margin: 0 auto;
     border: 4px solid #344ddb;
-    /* (NUEVA) Posiciona el título (caption) de la tabla en la parte inferior */
-    caption-side: bottom;
-    /* (NUEVA) Fija el ancho de la columna según la primera fila y no el contenido */
-    table-layout: fixed;
 }
 th{
     border: 4px solid rgb(87, 226, 32);
